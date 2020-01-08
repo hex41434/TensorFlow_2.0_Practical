@@ -9,3 +9,5 @@ Temperature in degrees F = Temperature in degrees C * W1 + Bias
 Temperature in degrees F = Temperature in degrees C * 9/5 + 32
 
 We are going to try to use our model to reverse engineer the values of the weight and the bias. We are going to use the model to retrieve the weight and bias.
+
+Take the input/output data, show it to the network, and update weights. Error comes down a little bit, and you keep repeating. It is an optimization problem; it is looking for the best value of weights to minimize the error. 
